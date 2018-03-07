@@ -43,9 +43,10 @@
 		"type": "richtext",
 		"localizable": true
 	},
-	"google_locaiton" : {
-		"type": "location",
-		"required": false
+	"title1": {
+		"type": "richtext",
+		"required": true,
+		"localizable": true
 	},
 	"sort_order": {
 		"type": "integer",
