@@ -43,6 +43,10 @@
 		"type": "richtext",
 		"localizable": true
 	},
+
+	"Google location" :{
+		"type": "location"
+	},
 	"sort_order": {
 		"type": "integer",
 		"required": false
