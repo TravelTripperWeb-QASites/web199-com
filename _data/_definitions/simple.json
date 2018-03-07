@@ -44,7 +44,7 @@
 		"localizable": true
 	},
 
-	"Google location" :{
+	"google_location" :{
 		"type": "location"
 	},
 	"sort_order": {
