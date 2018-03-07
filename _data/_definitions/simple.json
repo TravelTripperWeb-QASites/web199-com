@@ -44,7 +44,7 @@
 		"localizable": true
 	},
 	"title1": {
-		"type": "richtext",
+		"type": "location",
 		"required": true,
 		"localizable": true
 	},
