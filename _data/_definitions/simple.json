@@ -43,9 +43,9 @@
 		"type": "richtext",
 		"localizable": true
 	},
-
 	"google_location" :{
 		"type": "richtext"
+		"required": false
 	},
 	"sort_order": {
 		"type": "integer",
