@@ -1,6 +1,6 @@
 {
   "google_location_localized": {
-    "en": "{\"name\":\"Philadelphia\",\"reference\":\"CmRbAAAAr6WxlMq6aeA5Qq2u1_vHPrmdZesS8FPX22Ot-OO1gmx5SLE11GALXzC6Qu3nmSV3Pu0LuQgvSiJb5a2XNM7pEPUtaj1K_3kDmRXQ20uz9hF-gG-VohybosidbxWkNe68EhAlkv2YG-ivawr1YIh2RbeQGhSE73gIyx1cYcQwakHtheJumdPWTA\",\"address\":\"Philadelphia, PA, USA\",\"place_details\":\"[{\\\"long_name\\\":\\\"Philadelphia\\\",\\\"short_name\\\":\\\"Philadelphia\\\",\\\"types\\\":[\\\"locality\\\",\\\"political\\\"]},{\\\"long_name\\\":\\\"Philadelphia County\\\",\\\"short_name\\\":\\\"Philadelphia County\\\",\\\"types\\\":[\\\"administrative_area_level_2\\\",\\\"political\\\"]},{\\\"long_name\\\":\\\"Pennsylvania\\\",\\\"short_name\\\":\\\"PA\\\",\\\"types\\\":[\\\"administrative_area_level_1\\\",\\\"political\\\"]},{\\\"long_name\\\":\\\"United States\\\",\\\"short_name\\\":\\\"US\\\",\\\"types\\\":[\\\"country\\\",\\\"political\\\"]}]\"}"
+    "en": "Phoenix"
   },
   "name": "test1",
   "blogimage": {
