@@ -49,8 +49,10 @@ module Jekyll
       end
     
     rescue Exception => error
+      print "\n\n"
       print error.message, "\n"
       print error.backtrace.join("\n")
+      print "\n\n"
       return 'Error: ' + error.message
     end
 
@@ -94,15 +96,16 @@ module Jekyll
     #   end
     # end
 
-    def read_data_json_from(context)
+    def read_data_json_from(context, locale=nil)
       site = context.registers[:site]
+      locale ||= site.active_lang
       root_path = site.source
       page_folder = context['page']['path']
       
       
       data_dirs = [site.config['data_dir']].flatten
       data_dirs.reverse.each do |dir|
-        region_data_path = File.join(root_path, dir, '_regions', site.active_lang, page_folder)
+        region_data_path = File.join(root_path, dir, '_regions', locale, page_folder)
         path = File.join(region_data_path, @filename)
         if File.exists?(path)
           File.open(path, 'r') do |file|
@@ -110,7 +113,11 @@ module Jekyll
           end
         end
       end
-      return []
+      if locale != site.default_lang 
+        return read_data_json_from(context, site.default_lang)
+      else
+        return []
+      end
     end
 
     def wrap(tag, options)
