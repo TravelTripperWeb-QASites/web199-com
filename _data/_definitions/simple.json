@@ -46,8 +46,8 @@
 	"google_location": {
 		"type": "location",
 		"multiple": true,
-		"required": true,
-		"localizable": true
+		"required": true
+
 	},
 	"sort_order": {
 		"type": "integer",
