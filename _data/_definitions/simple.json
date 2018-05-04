@@ -45,7 +45,7 @@
 	},
 	"google_location": {
 		"type": "location",
-		"multiple": true,
+		"multiple": false,
 		"required": true
 
 	},
