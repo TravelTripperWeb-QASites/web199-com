@@ -43,7 +43,7 @@
 		"type": "richtext",
 		"localizable": true
 	},
-	"google_location12": {
+	"google_location": {
 		"type": "location",
 		"multiple": true,
 		"required": true
